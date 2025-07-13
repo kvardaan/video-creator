@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+# Mobile Developer Test - Image to Video Creation App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Table of Contents
 
-## Get started
+- [Task](#task)
+- [Technologies & Libraries Used](#technologies--libraries-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#1-clone-the-repository)
+  - [Installation](#2-install-dependencies)
+  - [Start Application](#3-start-the-application)
+- [APK](#apk)
 
-1. Install dependencies
+## Task
 
-   ```bash
-   npm install
-   ```
+- Title: Image to Video Creation App
+- Task: Create a simple mobile application where a user can:
+  - Select 3 to 5 images from the device.
+  - Save the generated video to the device.
+  - The generated video should have a background music and the images should animate.
 
-2. Start the app
+## Technologies & Libraries Used
 
-   ```bash
-   npx expo start
-   ```
+- Expo
+- React Native
+- Cloudinary
+- ShotStack.io API
 
-In the output, you'll find options to open the app in a
+## Getting Started
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Prerequisites
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Node.js (v20 or later)
+- npm
+- Git
+- Android or iOS Emulator/Device
 
-## Get a fresh project
+### Installation
 
-When you're ready, run:
+#### 1. Clone the repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/kvardaan/video-creator
+cd video-creator
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+#### 2. Install dependencies
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+#### 3. Start the application
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm run start
+```
 
-## Join the community
+Then according to the emulator/ physical device, press `a` - for android or `i` - for ios.
 
-Join our community of developers creating universal apps.
+## APK
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+[Android APK Link](https://fromsmash.com/Image-to-Video-Creator)
